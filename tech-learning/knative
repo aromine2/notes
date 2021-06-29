@@ -1,0 +1,28 @@
+The 4 Points of serverless:
+1. No infra to provision and configure
+2. On-demand execution
+3. Auto-scaling
+4. Per-second billing
+
+
+Knative architecture:
+1. Kuberentes
+2. Istio
+3. Knative
+  a. Serving
+  b. Eventing
+
+
+GKE has a Beta feature to install Istio with a checkbox
+
+The 4 functions of Knative Serving:
+1. Service (the microservice container)
+2. Routing (manage istio functions)
+3. Configuration (like env vars and stuff)
+4. Revision (point in time snap of code and config together)
+
+Knative Routing:
+Source (reads events)
+Broker (receives events from source)
+Trigger (bridges broker and service)
+Service (App consumes from Broker)
